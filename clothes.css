@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+.nav-bar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo{
+    height:50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+font-size: 0.85rem;
+font-weight: 700rem;
+margin-top: 15px;
+margin-right: 13px;
+}
+.heading{
+    margin-top: 15px;
+}
+.hero-section{
+    background-image: url("cll.avif");
+    background-size: contain;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: #0f1111;
+    color: white;
+    font-weight: 400;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width:80%;
+    margin-bottom: 25px;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e2e7e6;
+
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+    height: 300px;
+    /* background-image: url("health\ and\ personal\ care.jpg"); */
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content{
+    margin-left: 1 rem;
+    margin-right: 1 rem
+}
+h2{
+    margin-left: 1rem;
+}
+.see-more{
+    margin-left: 1rem;
+    color: #007185;
+}
